@@ -12,17 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".Info"></activity>
-        <activity android:name=".LogIn">
+        <activity android:name=".LogIn"></activity>
+        <activity android:name=".Loading" />
+        <activity android:name=".Home" />
+        <activity android:name=".VideView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Loading" />
-        <activity android:name=".Home" />
-        <activity android:name=".VideView" />
-        <activity android:name=".WebVieww" />
-    </application>
+        <activity android:name=".WebVieww">
 
+        </activity>
+    </application>
+    // resource only only only lower casesssssssssssssssssssssssssssssssssssssssssssssssssss
+    // :)
+    //ok. sorry// :) na baba in harf ha chi
+    // edame bede
+    // by
+    //merci
 </manifest>

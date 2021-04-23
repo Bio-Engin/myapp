@@ -12,10 +12,9 @@ public class VideView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vide_view);
         video = findViewById(R.id.video);
+//        video.setVideoPath("file:///android_res/raw/vone.mp4");
+        video.setVideoPath("https://www.aparat.com/v/HavnF");
+        video.start();
     }
 }
 
-//chi ro eshtebah zadam?
-// migam behet
-// ok . dastet dard nakone
-//gereftam. mamnun javad :)
